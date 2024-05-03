@@ -1,0 +1,30 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../../assets/png/gradde-black.png";
+import Button from "../ui/Button";
+
+const Navbar = () => {
+  return (
+    <div className="bg-[#fffcf7]">
+      <div className=" max-w-7xl mx-auto flex justify-between items-center py-5">
+        {/* logo */}
+        <div>
+          <img src={logo} alt="gradde logo" className="h-auto w-24" />
+        </div>
+        {/* menu items */}
+        <nav>
+          <ul className="flex justify-around">
+            <li>Pricing</li>
+          </ul>
+        </nav>
+        {/* login and signup button */}
+        <div className=" space-x-4 text-white font-semibold">
+          <Button text="Login" />
+          <Button text="Signup" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
