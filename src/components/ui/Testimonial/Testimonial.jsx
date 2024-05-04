@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Swiper from "swiper";
 import "swiper/swiper-bundle.css";
+import "swiper/css/autoplay";
 import "./style.css";
 
 const Testimonial = () => {
@@ -39,7 +40,7 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <section className="py-24 ">
+    <section className="py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 ">
           <span className="text-sm text-gray-500 font-medium text-center block mb-2">
