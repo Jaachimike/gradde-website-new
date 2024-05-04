@@ -97,11 +97,11 @@ const Homepage = () => {
           {/* customizable grading system */}
           <div className="flex space-x-8 pb-16">
             {/* image */}
-            <div className="w-1/2 shadow-md">
+            <div className=" shadow-md">
               <img src={gradingSystem} alt="" />
             </div>
             {/* write up */}
-            <div>
+            <div className="w-1/2">
               <p className="text-3xl font-semibold mb-3 text-gradde-purple">
                 Customizable Grading System
               </p>
