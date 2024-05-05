@@ -37,38 +37,38 @@ const Pricing = () => {
 
       <div className="flex pb-10 space-x-10">
         {/* toggle buttons and writeup */}
-        <div>
+        <div className="w-1/2">
           {/* toggle buttons */}
           <div>
             <span className="text-xl font-semibold mb-8 block">
               Choose a pricing plan:
             </span>
-            <div className="flex ">
+            <div className="flex">
               <Button
                 text="Monthly"
                 onClick={displayMonthly}
                 className={` ${
                   selectedButton === 1 ? "bg-gray-300" : "bg-white"
-                } text-black   rounded-none py-6 px-16  shadow-sm`}
+                } text-black rounded-l-xl rounded-r-none   py-6 px-14  shadow-sm`}
               />
               <Button
                 text="Quarterly"
                 onClick={displayQuarterly}
                 className={` ${
                   selectedButton === 2 ? "bg-gray-300" : "bg-white"
-                } text-black rounded-none py-6 px-16  shadow-sm`}
+                } text-black rounded-none py-6 px-14  shadow-sm`}
               />
               <Button
                 text="Yearly"
                 onClick={displayYearly}
                 className={` ${
                   selectedButton === 3 ? "bg-gray-300" : "bg-white"
-                } text-black rounded-none py-6 px-16  shadow-sm`}
+                } text-black rounded-r-xl rounded-l-none  py-6 px-14  shadow-sm`}
               />
             </div>
           </div>
           {/* writeup */}
-          <div></div>
+          {/* <div></div> */}
         </div>
         {/* price display */}
         <div className="w-full border-l pl-9">
@@ -91,7 +91,7 @@ const Pricing = () => {
                 <p className="text-3xl font-bold ">Basic Quarterly Plan</p>
                 <p className="text-7xl font-bold ">
                   &#x20A6;3000{" "}
-                  <span className="text-sm font-light -ml-2">per month </span>
+                  <span className="text-sm font-light -ml-2">quarterly </span>
                 </p>
               </div>
 
@@ -104,7 +104,7 @@ const Pricing = () => {
                 <p className="text-3xl font-bold ">Basic Yearly Plan</p>
                 <p className="text-7xl font-bold ">
                   &#x20A6;2450{" "}
-                  <span className="text-sm font-light -ml-2">per month </span>
+                  <span className="text-sm font-light -ml-2">yearly </span>
                 </p>
               </div>
 

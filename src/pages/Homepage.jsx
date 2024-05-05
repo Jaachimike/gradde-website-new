@@ -21,7 +21,7 @@ const Homepage = () => {
               from start to finish
             </p>
             <div>
-              <Button text="Signup for a free trial" />
+              <Button text="Signup for a free trial" className=" text-white" />
             </div>
           </div>
           {/* hero image */}
