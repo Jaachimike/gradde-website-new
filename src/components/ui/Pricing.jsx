@@ -5,7 +5,7 @@ const Pricing = () => {
   const [monthly, setMonthly] = useState(true);
   const [quarterly, setQuarterly] = useState(false);
   const [yearly, setYearly] = useState(false);
-  const [selectedButton, setSelectedButton] = useState(null);
+  const [selectedButton, setSelectedButton] = useState(1);
 
   const displayMonthly = () => {
     setMonthly(true);
@@ -49,21 +49,21 @@ const Pricing = () => {
                 onClick={displayMonthly}
                 className={` ${
                   selectedButton === 1 ? "bg-gray-300" : "bg-white"
-                } text-black rounded-l-xl rounded-r-none   py-6 px-14  shadow-sm`}
+                } text-black rounded-l-xl rounded-r-none   py-6 px-14  shadow-sm flex-1`}
               />
               <Button
                 text="Quarterly"
                 onClick={displayQuarterly}
                 className={` ${
                   selectedButton === 2 ? "bg-gray-300" : "bg-white"
-                } text-black rounded-none py-6 px-14  shadow-sm`}
+                } text-black rounded-none py-6 px-14  shadow-sm flex-1`}
               />
               <Button
                 text="Yearly"
                 onClick={displayYearly}
                 className={` ${
                   selectedButton === 3 ? "bg-gray-300" : "bg-white"
-                } text-black rounded-r-xl rounded-l-none  py-6 px-14  shadow-sm`}
+                } text-black rounded-r-xl rounded-l-none  py-6 px-14  shadow-sm flex-1`}
               />
             </div>
           </div>

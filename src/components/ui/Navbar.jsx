@@ -9,7 +9,9 @@ const Navbar = () => {
       <div className=" max-w-7xl mx-auto flex justify-between items-center py-5">
         {/* logo */}
         <div>
-          <img src={logo} alt="gradde logo" className="h-10" />
+          <a href="#">
+            <img src={logo} alt="gradde logo" className="h-10" />
+          </a>
         </div>
         {/* menu items */}
         <nav>

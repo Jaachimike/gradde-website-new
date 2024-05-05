@@ -42,7 +42,7 @@ const Features = () => {
           <img src={generateFeedback} alt="" />
         </div>
         {/* write up */}
-        <div>
+        <div className="text-right">
           <p className="text-3xl font-semibold mb-3 text-gradde-purple">
             Generate Feedback for Teaching
           </p>
@@ -73,11 +73,11 @@ const Features = () => {
       {/* customizable grading system */}
       <div className="flex space-x-8 pb-28">
         {/* image */}
-        <div className=" shadow-md">
-          <img src={gradingSystem} alt="" />
+        <div className="w-1/2  shadow-md">
+          <img src={gradingSystem} alt="" className="w-full" />
         </div>
         {/* write up */}
-        <div className="w-1/2">
+        <div className="text-right">
           <p className="text-3xl font-semibold mb-3 text-gradde-purple">
             Customizable Grading System
           </p>
