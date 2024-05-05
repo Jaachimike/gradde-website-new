@@ -19,8 +19,11 @@ const Navbar = () => {
         </nav>
         {/* login and signup button */}
         <div className=" space-x-4 text-white font-semibold">
-          <Button text="Login" />
-          <Button text="Signup" />
+          <Button
+            text="Login"
+            className=" bg-transparent text-[#8C52FF] hover:text-black transition-all"
+          />
+          <Button text="Signup" className="hover:text-black transition-all" />
         </div>
       </div>
     </div>
