@@ -8,15 +8,15 @@ import Features from "../components/ui/Features";
 const Homepage = () => {
   return (
     <div className=" bg-[#fffcf7]">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-5 md:px-0">
         {/* hero section */}
         <div className="pt-8 mb-20 flex space-x-9">
           {/* hero writeup */}
-          <div className="w-1/2 flex flex-col justify-center">
-            <p className="text-6xl font-bold mb-5">
+          <div className="md:w-1/2 flex flex-col text-center md:text-left justify-center">
+            <p className=" text-4xl md:text-6xl font-bold mb-5">
               The Gradebook That Saves Teachers Time and Effort
             </p>
-            <p className=" text-gray-400 mb-5">
+            <p className="text-sm md:text-md text-gray-400 mb-5">
               Switch from your basic spreadsheets, automate your grading process
               from start to finish
             </p>
@@ -25,7 +25,7 @@ const Homepage = () => {
             </div>
           </div>
           {/* hero image */}
-          <div>
+          <div className="hidden md:block">
             <img src={heroImage} alt="hero image for gradde website" />
           </div>
         </div>

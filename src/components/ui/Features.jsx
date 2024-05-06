@@ -10,17 +10,17 @@ import generateFeedback from "../../assets/png/teaching-feedback.png";
 const Features = () => {
   return (
     <div>
-      <p className="text-6xl font-bold mb-5 text-center">
+      <p className="text-4xl md:text-6xl  font-bold mb-5 text-center">
         Expreience the power of Gradde
       </p>
-      <p className=" text-gray-400 mb-16 text-center">
+      <p className="text-sm md:text-md text-gray-400 mb-16 text-center">
         The perfect gradebook for tutuors, teachers and schools who are looking
         to save time and simplify their grading process
       </p>
       {/* seamless result sharing */}
-      <div className="flex space-x-8 mb-28">
+      <div className="flex flex-col md:flex-row md:space-x-8 mb-28">
         {/* write up */}
-        <div>
+        <div className="mb-7 md:mb-0">
           <p className="text-3xl font-semibold mb-3 text-gradde-purple">
             Seamless Result Sharing
           </p>
@@ -31,18 +31,18 @@ const Features = () => {
           </p>
         </div>
         {/* image */}
-        <div className=" w-1/2 shadow-md">
+        <div className="md:w-1/2 shadow-md">
           <img src={resultSharing} alt="" />
         </div>
       </div>
       {/* generate feedback for teaching */}
-      <div className="flex space-x-8 mb-28">
+      <div className="flex flex-col md:flex-row md:space-x-8 mb-28">
         {/* image */}
-        <div className="w-1/2 shadow-md">
+        <div className="order-last md:order-first md:w-1/2 shadow-md">
           <img src={generateFeedback} alt="" />
         </div>
         {/* write up */}
-        <div className="text-right">
+        <div className="text-right mb-7 md:mb-0">
           <p className="text-3xl font-semibold mb-3 text-gradde-purple">
             Generate Feedback for Teaching
           </p>
@@ -53,9 +53,9 @@ const Features = () => {
         </div>
       </div>
       {/* online gradebook */}
-      <div className="flex space-x-8 mb-28">
+      <div className="flex flex-col md:flex-row md:space-x-8 mb-28">
         {/* write up */}
-        <div>
+        <div className="mb-7 md:mb-0">
           <p className="text-3xl font-semibold mb-3 text-gradde-purple">
             Online Gradebook
           </p>
@@ -71,13 +71,13 @@ const Features = () => {
         </div>
       </div>
       {/* customizable grading system */}
-      <div className="flex space-x-8 pb-28">
+      <div className="flex flex-col md:flex-row md:space-x-8 pb-28">
         {/* image */}
-        <div className="w-1/2  shadow-md">
+        <div className="order-last md:order-first md:w-1/2 shadow-md">
           <img src={gradingSystem} alt="" className="w-full" />
         </div>
         {/* write up */}
-        <div className="text-right">
+        <div className="text-right mb-7 md:mb-0">
           <p className="text-3xl font-semibold mb-3 text-gradde-purple">
             Customizable Grading System
           </p>

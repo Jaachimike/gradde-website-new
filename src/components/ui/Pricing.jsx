@@ -35,12 +35,12 @@ const Pricing = () => {
       <p className="text-4xl font-bold text-center mb-3">Pricing plans</p>
       <p className=" text-gray-400 mb-16 text-center">Select a billing plan</p>
 
-      <div className="flex pb-10 space-x-10">
+      <div className="flex flex-col md:flex-row  pb-10 md:space-x-10">
         {/* toggle buttons and writeup */}
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           {/* toggle buttons */}
           <div>
-            <span className="text-xl font-semibold mb-8 block">
+            <span className="text-xl font-semibold mb-8 block text-nowrap">
               Choose a pricing plan:
             </span>
             <div className="flex">
@@ -71,14 +71,14 @@ const Pricing = () => {
           {/* <div></div> */}
         </div>
         {/* price display */}
-        <div className="w-full border-l pl-9">
+        <div className="w-full md:border-l md:pl-9">
           {monthly && (
             <div>
-              <div className="flex items-end space-x-9 mt-8 mb-3">
-                <p className="text-3xl font-bold ">Basic Monthly Plan</p>
-                <p className="text-7xl font-bold ">
+              <div className="flex flex-col md:flex-row md:items-end md:space-x-9 mt-8 mb-3">
+                <p className="text-3xl  font-bold ">Basic Monthly Plan</p>
+                <p className=" text-7xl  font-bold ">
                   &#x20A6;3500{" "}
-                  <span className="text-sm font-light -ml-2">per month </span>
+                  <span className="text-sm font-light -ml-2">monthly </span>
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ const Pricing = () => {
           )}
           {quarterly && (
             <div>
-              <div className="flex items-end space-x-9 mt-8 mb-3">
+              <div className="flex flex-col md:flex-row md:items-end md:space-x-9 mt-8 mb-3">
                 <p className="text-3xl font-bold ">Basic Quarterly Plan</p>
                 <p className="text-7xl font-bold ">
                   &#x20A6;3000{" "}
@@ -100,7 +100,7 @@ const Pricing = () => {
           )}
           {yearly && (
             <div>
-              <div className="flex items-end space-x-9 mt-8 mb-3">
+              <div className="flex flex-col md:flex-row md:items-end md:space-x-9 mt-8 mb-3">
                 <p className="text-3xl font-bold ">Basic Yearly Plan</p>
                 <p className="text-7xl font-bold ">
                   &#x20A6;2450{" "}
