@@ -8,9 +8,9 @@ import Features from "../components/ui/Features";
 const Homepage = () => {
   return (
     <div className=" bg-[#fffcf7]">
-      <div className="max-w-7xl mx-auto px-5 md:px-0">
+      <div className="max-w-7xl mx-auto px-9 md:px-0">
         {/* hero section */}
-        <div className="pt-8 mb-20 flex space-x-9">
+        <div className="pt-8 mb-20 flex flex-col md:flex-row md:space-x-9">
           {/* hero writeup */}
           <div className="md:w-1/2 flex flex-col text-center md:text-left justify-center">
             <p className=" text-4xl md:text-6xl font-bold mb-5">
@@ -25,7 +25,7 @@ const Homepage = () => {
             </div>
           </div>
           {/* hero image */}
-          <div className="hidden md:block">
+          <div className="">
             <img src={heroImage} alt="hero image for gradde website" />
           </div>
         </div>
