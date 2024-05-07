@@ -14,7 +14,9 @@ const Homepage = () => {
           {/* hero writeup */}
           <div className="md:w-1/2 flex flex-col text-center md:text-left justify-center">
             <p className=" text-4xl md:text-6xl font-bold mb-5">
-              The Gradebook That Saves Teachers Time and Effort
+              The <span className=" text-gradde-purple">Gradebook</span> That
+              Saves <span className=" text-gradde-purple">Teachers</span> Time
+              and Effort
             </p>
             <p className="text-sm md:text-md text-gray-400 mb-5">
               Switch from your basic spreadsheets, automate your grading process
