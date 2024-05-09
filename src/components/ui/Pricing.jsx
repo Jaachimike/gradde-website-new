@@ -82,7 +82,10 @@ const Pricing = () => {
                 </p>
               </div>
 
-              <Button text="Subscribe" className="w-full rounded-lg" />
+              <Button
+                text="Subscribe"
+                className="w-full text-white rounded-lg"
+              />
             </div>
           )}
           {quarterly && (
@@ -95,7 +98,10 @@ const Pricing = () => {
                 </p>
               </div>
 
-              <Button text="Subscribe" className="w-full rounded-lg" />
+              <Button
+                text="Subscribe"
+                className="w-full text-white rounded-lg"
+              />
             </div>
           )}
           {yearly && (
@@ -108,7 +114,10 @@ const Pricing = () => {
                 </p>
               </div>
 
-              <Button text="Subscribe" className="w-full rounded-lg" />
+              <Button
+                text="Subscribe"
+                className="w-full text-white rounded-lg"
+              />
             </div>
           )}
         </div>

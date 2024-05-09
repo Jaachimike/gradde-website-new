@@ -8,7 +8,7 @@ import Features from "../components/ui/Features";
 const Homepage = () => {
   return (
     <div className=" bg-[#fffcf7]">
-      <div className="max-w-7xl mx-auto px-9 md:px-0">
+      <div className="max-w-7xl mx-auto px-9 md:px-10 lg:px-9">
         {/* hero section */}
         <div className="pt-8 mb-20 flex flex-col md:flex-row md:space-x-9">
           {/* hero writeup */}
