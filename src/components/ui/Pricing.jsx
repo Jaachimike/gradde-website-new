@@ -78,14 +78,13 @@ const Pricing = () => {
                 <p className="text-3xl  font-bold ">Basic Monthly Plan</p>
                 <p className=" text-7xl  font-bold ">
                   &#x20A6;3500{" "}
-                  <span className="text-sm font-light -ml-2">monthly </span>
+                  <span className="text-sm font-light -ml-2">
+                    monthly (per user)
+                  </span>
                 </p>
               </div>
 
-              <Button
-                text="Subscribe"
-                className="w-full text-white rounded-lg"
-              />
+              <Button text="Subscribe" className=" text-white rounded-lg" />
             </div>
           )}
           {quarterly && (
@@ -94,14 +93,13 @@ const Pricing = () => {
                 <p className="text-3xl font-bold ">Basic Quarterly Plan</p>
                 <p className="text-7xl font-bold ">
                   &#x20A6;3000{" "}
-                  <span className="text-sm font-light -ml-2">quarterly </span>
+                  <span className="text-sm font-light -ml-2">
+                    quarterly (per user)
+                  </span>
                 </p>
               </div>
 
-              <Button
-                text="Subscribe"
-                className="w-full text-white rounded-lg"
-              />
+              <Button text="Subscribe" className=" text-white rounded-lg" />
             </div>
           )}
           {yearly && (
@@ -110,14 +108,13 @@ const Pricing = () => {
                 <p className="text-3xl font-bold ">Basic Yearly Plan</p>
                 <p className="text-7xl font-bold ">
                   &#x20A6;2450{" "}
-                  <span className="text-sm font-light -ml-2">yearly </span>
+                  <span className="text-sm font-light -ml-2">
+                    yearly (per user)
+                  </span>
                 </p>
               </div>
 
-              <Button
-                text="Subscribe"
-                className="w-full text-white rounded-lg"
-              />
+              <Button text="Subscribe" className=" text-white rounded-lg" />
             </div>
           )}
         </div>

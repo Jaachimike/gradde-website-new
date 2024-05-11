@@ -36,7 +36,9 @@ const Homepage = () => {
         <Features />
 
         {/* pricing section */}
-        <Pricing />
+        <div id="pricing">
+          <Pricing />
+        </div>
 
         {/* testimonial section */}
         <Testimonial />

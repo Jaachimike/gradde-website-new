@@ -41,7 +41,9 @@ const Navbar = () => {
         {/* menu items */}
         <nav className={` flex-grow justify-around hidden md:block `}>
           <ul className="flex justify-around">
-            <li>Pricing</li>
+            <li>
+              <a href="#pricing">Pricing</a>
+            </li>
           </ul>
         </nav>
         {/* sidebar */}
@@ -54,16 +56,28 @@ const Navbar = () => {
             <ul className="flex flex-col items-center">
               <li className="my-2">Pricing</li>
               <li className="my-2">
-                <Button
-                  text="Login"
-                  className="bg-transparent text-black hover:text-gradde-purple transition-all"
-                />
+                <a
+                  href="https://app.gradde.co/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    text="Login"
+                    className="bg-transparent text-black hover:text-gradde-purple transition-all"
+                  />
+                </a>
               </li>
               <li className="my-2">
-                <Button
-                  text="Signup"
-                  className="hover:text-black transition-all"
-                />
+                <a
+                  href="https://app.gradde.co/create-account"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    text="Signup"
+                    className="hover:text-black transition-all"
+                  />
+                </a>
               </li>
             </ul>
             {/* Additional sidebar items can be added here */}
@@ -88,11 +102,24 @@ const Navbar = () => {
         </div>
         {/* login and signup button */}
         <div className="space-x-4 text-white font-semibold hidden md:flex">
-          <Button
-            text="Login"
-            className="bg-transparent text-black hover:text-gradde-purple transition-all"
-          />
-          <Button text="Signup" className="hover:text-black transition-all" />
+          <a
+            href="https://app.gradde.co/login"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button
+              text="Login"
+              className="bg-transparent text-black hover:text-gradde-purple transition-all"
+            />
+          </a>
+
+          <a
+            href="https://app.gradde.co/create-account"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button text="Signup" className="hover:text-black transition-all" />
+          </a>
         </div>
       </div>
     </div>

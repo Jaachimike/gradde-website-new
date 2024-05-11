@@ -14,7 +14,7 @@ const Features = () => {
         Experience the power of Gradde
       </p>
       <p className="text-sm md:text-base lg:text-md text-gray-400 mb-16 text-center">
-        The perfect gradebook for tutuors, teachers and schools who are looking
+        The perfect gradebook for tutors, teachers and schools who are looking
         to save time and simplify their grading process
       </p>
       {/* online gradebook */}

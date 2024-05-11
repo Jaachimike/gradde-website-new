@@ -1,5 +1,8 @@
 import React from "react";
 import logo from "../../assets/png/gradde-black.png";
+import instagramSvg from "../../assets/svg/icons8-instagram.svg";
+import facebookSvg from "../../assets/svg/icons8-facebook.svg";
+import twitterSvg from "../../assets/svg/icons8-twitter.svg";
 
 const Footer = () => {
   return (
@@ -17,15 +20,42 @@ const Footer = () => {
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
+              <a href="#pricing" className="hover:underline me-4 md:me-6">
                 Pricing
               </a>
             </li>
             <li>
+              <a href="https://www.instagram.com/gradde.co">
+                <img
+                  src={instagramSvg}
+                  alt="link to gradde instagram page"
+                  className="h-6 me-4 md:me-6"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100094697289424">
+                <img
+                  src={facebookSvg}
+                  alt="link to gradde instagram page"
+                  className="h-6 me-4 md:me-6"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/graddeco">
+                <img
+                  src={twitterSvg}
+                  alt="link to gradde instagram page"
+                  className="h-6"
+                />
+              </a>
+            </li>
+            {/* <li>
               <a href="#" className="hover:underline me-4 md:me-6">
                 FAQs
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <hr className="my-4 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-6" />
