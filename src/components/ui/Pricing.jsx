@@ -84,7 +84,13 @@ const Pricing = () => {
                 </p>
               </div>
 
-              <Button text="Subscribe" className=" text-white rounded-lg" />
+              <a
+                href="http://app.gradde.co/settings/billing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button text="Subscribe" className=" text-white rounded-lg" />
+              </a>
             </div>
           )}
           {quarterly && (
@@ -98,8 +104,13 @@ const Pricing = () => {
                   </span>
                 </p>
               </div>
-
-              <Button text="Subscribe" className=" text-white rounded-lg" />
+              <a
+                href="http://app.gradde.co/settings/billing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button text="Subscribe" className=" text-white rounded-lg" />
+              </a>
             </div>
           )}
           {yearly && (
@@ -113,8 +124,13 @@ const Pricing = () => {
                   </span>
                 </p>
               </div>
-
-              <Button text="Subscribe" className=" text-white rounded-lg" />
+              <a
+                href="http://app.gradde.co/settings/billing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button text="Subscribe" className=" text-white rounded-lg" />
+              </a>
             </div>
           )}
         </div>
