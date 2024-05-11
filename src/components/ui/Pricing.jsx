@@ -75,7 +75,7 @@ const Pricing = () => {
           {monthly && (
             <div>
               <div className="flex flex-col md:flex-row md:items-end md:space-x-9 mt-8 mb-3">
-                <p className="text-3xl  font-bold ">Basic Monthly Plan</p>
+                <p className="text-3xl  font-bold ">Basic Plan</p>
                 <p className=" text-7xl  font-bold ">
                   &#x20A6;3500{" "}
                   <span className="text-sm font-light -ml-2">
@@ -90,11 +90,11 @@ const Pricing = () => {
           {quarterly && (
             <div>
               <div className="flex flex-col md:flex-row md:items-end md:space-x-9 mt-8 mb-3">
-                <p className="text-3xl font-bold ">Basic Quarterly Plan</p>
+                <p className="text-3xl font-bold ">Basic Plan</p>
                 <p className="text-7xl font-bold ">
                   &#x20A6;3000{" "}
                   <span className="text-sm font-light -ml-2">
-                    quarterly (per user)
+                    monthly (per user)
                   </span>
                 </p>
               </div>
@@ -105,11 +105,11 @@ const Pricing = () => {
           {yearly && (
             <div>
               <div className="flex flex-col md:flex-row md:items-end md:space-x-9 mt-8 mb-3">
-                <p className="text-3xl font-bold ">Basic Yearly Plan</p>
+                <p className="text-3xl font-bold ">Basic Plan</p>
                 <p className="text-7xl font-bold ">
                   &#x20A6;2450{" "}
                   <span className="text-sm font-light -ml-2">
-                    yearly (per user)
+                    monthly (per user)
                   </span>
                 </p>
               </div>
